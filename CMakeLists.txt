@@ -14,6 +14,8 @@
 
 cmake_minimum_required(VERSION 3.8)
 
+set( CMAKE_BUILD_TYPE Debug )
+
 set( LIBS_OCE TKBinXCAF TKPCAF TKSTEP TKXDESTEP TKIGES TKXDEIGES )
 find_package( OCE 0.16 REQUIRED ${LIBS_OCE} )
 
